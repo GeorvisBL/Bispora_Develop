@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bispora Dev</title> 
+
+    <link rel="shortcut icon" href="img/Bispora.ico">
+
+    <!-- Estilos .css -->
+    <link rel="stylesheet" href="wwwroot/style.css">
+    <link rel="stylesheet" href="wwwroot/Styles/homePage.css">
+
+    <!-- Bootstrap .css v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="htmlBody">
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+    
+                <div id="containerHeader">
+                    <div id="containerHeader_div">
+                        <div class="d-flex flex-row-reverse bd-highlight">
+                            <div id="btnMenu" class="p-2 bd-highlight mt-2" onclick="mostrarMenu(1)">
+                                <p class="fs-5">
+                                    <i class="fa-solid fa-bars"></i>
+                                </p>
+                            </div>
+                        </div>
+        
+                        <a href="#">
+                            <div id="logoBispora">
+    
+                                <img id="imgLogoBispota" src="img/imgLogoVerde.png" alt="..." />
+                                <img id="imgTextoBispora" src="img/BISPORA.png" alt="..." />
+            
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+    
+                <div id="containerMenu" class="mostraMenu">
+                    <div  id="containerMenu_div">
+    
+                        <div class="d-flex flex-row-reverse bd-highlight" style="width: 100%; padding: 16px 15px 0 0;">
+                            <div id="btnMenu" class="p-2 bd-highlight" onclick="mostrarMenu(0)">
+                                <p class="fs-5"> 
+                                    <i class="fa-solid fa-xmark" style="font-size: 20pt; color: #fbf8f894; cursor: pointer;"></i>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div id="divLinksMenu">
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start col-12 mt-5" id="menu">
+                                <a href="index.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa-solid fa-house"></i> Home
+                                    </li>
+                                </a>
+                                <a href="NossoDNA.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa fa-star"></i> Our DNA
+                                    </li>
+                                </a>
+                            <!--
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy1">
+                                        <i class="fa-solid fa-gear"></i> Serviços Especializados
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy2">
+                                        <i class="fa-solid fa-list"></i> Produtos
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid fa-magnifying-glass"></i> Pesquisa e Desenvolvimento
+                                    </li>
+                                </a>
+                            -->
+                                <a href="NossaEquipe.html" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid  fa fa-users"></i> Our team
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                        <div id="containerRedSociais"  class="mostraMenu">
+                            <div id="containerRedSociais_div">
+                                <div class="iconRS WhatsApp"> <a href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </div> <!-- WhatsApp -->
+                                <div class="iconRS Linkedin"> <a href="https://www.linkedin.com/in/georvis-brooks-58706b201/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a> </div> <!-- Linkedin -->
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <a id="containerWhatsappF" href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank" title="WhatsApp">
+                    <div class="iconRS WhatsApp">  <i class="fa-brands fa-whatsapp"></i> </div>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+    
+    
+    <div id="containerRenderBody">
+        
+        <div id="indexSitePortugues">
+
+            <div class="container" style="background-color: #efebeb3d;">
+                <div id="containerBispora1">
+        
+                    <h1 > Bispora is a fungus genus in the Helotiaceae family.  </h1>
+                    <p>
+                        Fungi are the most fascinating and enigmatic kingdom on Earth, present in all habitats and playing vital roles in carbon sequestration, nitrogen cycling, and other processes. Fungi-based platforms are being created for food, drug discovery, biofuels, laundry detergents, plastic degradation, and other. 
+                        <b>We named our company Bispora because several of our concepts include fungal biotechnology. </b>.
+                    </p>
+        
+                </div>
+            </div>
+
+            <div id="containerImgPrincipal">
+                <div>
+                    <img src="../img/imgPrincipal.png" class="card-img-top" alt="ImagemPrincipal" />
+                </div>
+            </div>
+        
+            <div class="container containerBody">
+        
+                <div id="containerBispora2">
+        
+                    <h1 > Bispora é um género de fungo da família Helotiaceae </h1>
+                    <p>
+                        Os fungos são o reino mais fascinante e enigmático da Terra, presente em todos os habitats e desempenhando papéis vitais no sequestro de carbono, ciclagem de nitrogênio e outros processos. Plataformas baseadas em fungos estão sendo criadas para alimentos, descoberta de medicamentos, biocombustíveis, detergentes para roupa, degradação de plástico e outros. 
+                        <b>Nomeamos nossa empresa de Bispora porque vários de nossos conceitos incluem biotecnologia fúngica</b>.
+                    </p>
+        
+                </div>
+        
+        
+
+
+
+                <div id="containerPlataforma1">
+                    <h1> PLATFORMS OF PROJECTS BISPORA: </h1>
+                    <p>
+                        Globally, 12% of the population suffers from food insecurity, whereas 6% to 60% are gluten or lactose intolerant. 
+                        <b>Diet is a lifestyle factor that contributes to many chronic conditions</b>
+                        including obesity, cardiovascular disease, hypertension, stroke, type 2 diabetes, metabolic syndrome, some cancers, and neurological diseases. These challenges require innovative food production chains, based on circular bioeconomy and co-participation of the agrochemical industries and pharmaceutical. <br/>
+                        Several health problems cited above are 
+                        <b>prone for drug development</b> - an expensive and time consuming process - 
+                        <b>with high failure rates due to low translatability. With the help of biotechnology and integrated systems toxicology approaches (INSYSTA), the startup Bispora creates business models that transform biomass into high-value products</b>
+                        (nutritious foods, safe drugs, sustainable fuels and beyond). Additionally, 
+                        <b>INSYSTA offers highly accurate preclinical assays and health tests.</b>.
+                    </p>
+        
+                </div>
+        
+                <div id="containerPlataformaImgText">
+                    <div id="containerPlataformaImgText_div">
+                        <div id="imgProjBisporaBiren">
+                            <div>
+                                <img src="../img/imgProjBisporaBiren.png" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                        </div>
+                        <div id="div_text">
+                            <div style="background-color: #E2F0D9;">
+                                <i>Bispora is a fantastic place to investment and conduct pioneering research that transforms challenges into sustainable business solutions </i>
+                            </div>
+                            <div style="background-color: #DAE3F3;">
+                                <i>Bispora é um lugar fantástico para investir e realizar pesquisas pioneiras que transformam desafios em soluções de negócios sustentáveis</i>
+                            </div>
+                        </div>
+                        <div id="imgProjBisporaPista">
+                            <div>
+                                <img src="../img/imgProjBisporaPista.png" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+        
+                <div id="containerPlataforma2">
+                    <h1> PLATAFORMAS DE PROJETOS BISPORA: </h1>
+                    <p>
+                        Globalmente, 12% da população sofre de insegurança alimentar, enquanto 6% a 60% são intolerantes ao glúten ou à lactose.
+                        <b>A dieta é um fator de estilo de vida que contribui para muitas condições crônicas</b>
+                        , incluindo obesidade, doenças cardiovasculares, hipertensão, acidente vascular cerebral, diabetes tipo 2, síndrome metabólica, alguns tipos de câncer e doenças neurológicas. Esses desafios exigem cadeias produtivas de alimentos inovadoras, baseadas na bioeconomia circular e na coparticipação das indústrias agroquímica e farmacêutica. <br/>
+                        Vários problemas de saúde citados acima são
+                        <b>propensos ao desenvolvimento de medicamentos</b> - um processo caro e demorado,
+                        <b>com altas taxas de falha devido à baixa traduzabilidade. Com a ajuda de biotecnologia e abordagens toxicológicas de sistemas integrados (INSYSTA), a startup Bispora cria modelos de negócios que transformam biomassa em produtos de alto valor</b>
+                        (alimentos nutritivos, medicamentos seguros, combustíveis sustentáveis e muito mais). Além disso, a
+                        <b>INSYSTA oferece ensaios pré-clínicos e testes de saúde altamente precisos</b>.
+                    </p>
+        
+                </div>
+        
+        
+                <div id="containerEquipInterd">
+                    <div  id="containerEquipInterd_div">
+                        <div id="imgShort">
+                            <div>
+                                <img src="../img/imgShort.png" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                        </div>
+                        <div id="div_textEquip">
+                            <div style="background-color: #E2F0D9;">
+                                <p class="m-0"> <b>Our interdisciplinary team</b> consists of chemists, physicists, biologists, toxicologists, engineers, geneticists, pharmacists, medical professionals, and information technology specialists.</p>
+                            </div>
+                            <div style="background-color: #DAE3F3;">
+                                <p class="m-0"> <b>Nossa equipe interdisciplinar</b> é composta por químicos, físicos, biólogos, toxicologistas, engenheiros, geneticistas, farmacêuticos, profissionais médicos e especialistas em tecnologia da informação.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        
+            
+        
+        </div>
+
+    </div>
+    
+
+    <footer class="border-top footer text-muted">
+        <section>
+    
+            <article>
+                <div class="footerDuvidas">
+                    <h3>COMPARTILHE SEUS PROBLEMAS CONOSCO, E RETORNAREMOS COM AS SOLUÇÕES ADEQUADAS.</h3>
+                </div>
+                
+                <div class="footerDuvidas2">
+                    <div id="border" class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div1">
+                            <i class="fas fa-phone-volume"></i>
+                            <div class="contentPhone">
+                                <a href="tel:+5511941460394"> +55-11-941460394 </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div2">
+                            <i class="far fa-envelope"></i>
+                            <div class="contentEmail">
+                                <a href="mailto:rbhernandez@unifesp.br?">rbhernandez@unifesp.br</a>
+                                <a href="mailto:bispora120@gmail.com?">bispora120@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+    
+        </section>
+     
+        <div id="fimFooter">
+            <div id="footerDiv" class="container">
+                &copy; 2024 - bispora.com.br
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="wwwroot/script.js"></script>
+    
+    <!-- Bootstrap .js v5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

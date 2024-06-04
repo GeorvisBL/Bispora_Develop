@@ -1,0 +1,395 @@
+
+#htmlBody{
+    max-width: 1910px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#containerMenu {
+    position: fixed;
+    top: 0;
+    left: -290px;
+    max-width: 290px;
+    height: 100vh;
+    transition: all .5s;
+    z-index: 100;
+    box-shadow: 1px 1px 7px #808080ab;
+    background: linear-gradient(135deg, #003300, #0f5132);
+    backdrop-filter: blur(10px);
+    overflow: auto;
+}
+
+#containerMenu_div{
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+}
+
+#divLinksMenu{
+    height: 65%;
+}
+
+.btnLink {
+    height: 50px;
+    cursor: pointer;
+    margin: 4px 0;
+    font-size: 13pt;
+    color: #b7acac;
+    text-decoration: none;
+    padding: 11px 0;
+    border-radius: 3px;
+}
+
+.btnLink:hover {
+    color: #000;
+    text-shadow: 0.1px 0.1px 5px #ada2a2c7;
+    background: #3b4e3985;
+}
+
+.btnLink li i {
+    margin: 0 7px 0;
+    font-size: 11pt;
+}
+
+
+#containerHeader {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    z-index: 10;
+    padding: 0;
+}
+
+#containerHeader_div{
+    max-width: 1910px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 9px #808080ab;
+    background: linear-gradient(135deg, #7fd7ad45, #e0f3ea0f);
+    backdrop-filter: blur(10px);
+}
+
+#containerHeader #containerHeader_div .d-flex {
+    width: 60px;
+    height: 41px;
+}
+
+#containerRenderBody {
+    margin-top: 65px;
+}
+
+#btnMenu p i {
+    font-size: 20pt;
+    color: #3a373794;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+#containerRedSociais {
+    width: 100%;
+    transition: all .5s;
+}
+
+#containerRedSociais_div {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#containerRedSociais_div .iconRS {
+    padding: 0 10px;
+}
+
+#containerRedSociais_div .iconRS a i {
+    font-size: 25pt;
+}
+
+#containerRedSociais_div .WhatsApp a i {
+    color: #809497;
+}
+
+#containerRedSociais_div .WhatsApp a i:hover {
+    color: #31a931;
+    text-shadow: 0.1px 0.1px 3px;
+}
+
+#containerRedSociais_div .Linkedin a i {
+    color: #809497;
+    display: none;  /**/
+}
+
+#containerRedSociais_div .Linkedin a i:hover {
+    color: #1499e9;
+    text-shadow: 0.1px 0.1px 3px;
+}
+
+#logoBispora {
+    width: 161px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 53px;
+    display: flex;
+    flex-direction: row;
+}
+#imgLogoBispota {
+    width: 40px;
+}
+#imgTextoBispora {
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+}
+
+
+#containerWhatsappF {
+    position: fixed;
+    right: 30px;
+    bottom: 150px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    padding: 0;
+    transition: all .5s;
+}
+#containerWhatsappF div{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #003300;
+    padding: 8px 0 0 10px;
+    box-shadow: 2px 2px 6px grey;
+}
+#containerWhatsappF div i{
+    font-size: 27pt;
+    color: #80978e;
+}
+#containerWhatsappF div i:hover{
+    color: #31a931;
+    text-shadow: 0.1px 0.1px 3px;    
+}
+
+
+#btnIdioma {
+    height: 25px;
+    border: none;
+    background-color: #f5f5f500;
+    margin: 10px 25px 0 0;
+}
+#btnIdioma:hover {
+    color: #003300;
+}
+#modalSelecionaIdioma{
+    position: fixed;
+    top: 0;
+
+}
+
+
+
+
+/* Body */
+#containerRenderBody{
+    width: 100%;
+    min-height: 77vh;
+    height: 100%;
+}
+
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    background: radial-gradient(115.41% 111.97% at 44.91% -7.91%, #41a156 0%, #6b836a 100%);
+}
+
+footer section {
+    max-width: 816px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.linkFooter {
+    width: 15%;
+    height: 2rem;
+    margin-top: .5rem;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    list-style: none;
+}
+
+.linkFooter:hover {
+    color: rgba(39, 38, 38, .9);
+}
+
+
+
+.footerDuvidas {
+    width: 100%;
+}
+
+.footerDuvidas h3 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: 100;
+    margin: 0;
+    padding: 18px 0 0 0;
+    color: #fff;
+}
+
+
+.footerDuvidas2 {
+    width: 100%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: row;
+}
+.footerDuvidas2_div{
+    width: 50%;
+}
+#border{
+    border-right: 1px solid #fff3;
+}
+
+.footerDuvidas2_div1{
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    margin: 11px auto 0;
+}
+.footerDuvidas2_div1 i{
+    font-size: 17pt;
+    color: #fff;
+}
+.contentPhone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+.contentPhone a{
+    font-size: 10pt;
+    text-decoration: none;
+    color: #cdc6c6;
+}
+.contentPhone a:hover{
+    color: #fff;
+}
+
+
+.footerDuvidas2_div2{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.footerDuvidas2_div2 i{
+    font-size: 17pt;
+    color: #fff;
+    margin-top: 12px;
+}
+.contentEmail{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+.contentEmail a{
+    font-size: 10pt;
+    text-decoration: none;
+    color: #cdc6c6;
+}
+.contentEmail a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+#fimFooter {
+    width: 100%;
+    background-color: #0e0e0ee3;
+    height: 36px;
+}
+
+#footerDiv {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 8px;
+}
+
+
+@media (max-width: 790px){
+
+    .footerDuvidas h3 {
+        width: 63%;
+        margin: 0 auto;
+        font-size: 10pt;
+    }
+
+}
+
+
+@media(max-width: 584px){
+
+    .footerDuvidas h3 {
+        width: 90%;
+    }
+
+    .footerDuvidas2 {
+        width: 37%;
+        flex-direction: column;
+    }
+
+    .footerDuvidas2 a {
+        width: 100%;
+    }
+    .footerDuvidas2 a i {
+        font-size: 13pt;
+    }
+    #border span {
+        font-size: 12pt;
+    }
+
+    .footerDuvidas2 div{
+        width: 100%;
+        font-size: 12pt;
+    }  
+    .footerDuvidas2 div a i {
+        font-size: 15pt;
+    }
+    #border{
+        border-right: none;
+        border-bottom: 1px solid #fff3;
+        padding-bottom: 10px;
+    }
+
+
+    #containerWhatsappF {
+        bottom: 55px;
+    }
+
+}
+
+@media(max-width: 900px) and (max-height: 450px){
+
+    #containerWhatsappF {
+        right: 30px;
+        bottom: 30px;
+    }
+
+
+}

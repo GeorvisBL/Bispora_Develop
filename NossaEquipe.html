@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bispora</title>
+
+    <link rel="shortcut icon" href="img/Bispora.ico">
+
+    <!-- Estilos .css -->
+    <link rel="stylesheet" href="wwwroot/style.css">
+    <link rel="stylesheet" href="wwwroot/Styles/nossaEquipe.css">
+
+    <!-- Bootstrap .css v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="htmlBody">
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+    
+                <div id="containerHeader">
+                    <div id="containerHeader_div">
+                        <div class="d-flex flex-row-reverse bd-highlight">
+                            <div id="btnMenu" class="p-2 bd-highlight mt-2" onclick="mostrarMenu(1)">
+                                <p class="fs-5">
+                                    <i class="fa-solid fa-bars"></i>
+                                </p>
+                            </div>
+                        </div>
+        
+                        <a href="index.html">
+                            <div id="logoBispora">
+    
+                                <img id="imgLogoBispota" src="img/imgLogoVerde.png" alt="..." />
+                                <img id="imgTextoBispora" src="img/BISPORA.png" alt="..." />
+            
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+    
+                <div id="containerMenu" class="mostraMenu">
+                    <div  id="containerMenu_div">
+    
+                        <div class="d-flex flex-row-reverse bd-highlight" style="width: 100%; padding: 16px 15px 0 0;">
+                            <div id="btnMenu" class="p-2 bd-highlight" onclick="mostrarMenu(0)">
+                                <p class="fs-5"> 
+                                    <i class="fa-solid fa-xmark" style="font-size: 20pt; color: #fbf8f894; cursor: pointer;"></i>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div id="divLinksMenu">
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start col-12 mt-5" id="menu">
+                                <a href="index.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa-solid fa-house"></i> Home
+                                    </li>
+                                </a>
+                                <a href="NossoDNA.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa fa-star"></i> Our DNA
+                                    </li>
+                                </a>
+                            <!--
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy1">
+                                        <i class="fa-solid fa-gear"></i> Serviços Especializados
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy2">
+                                        <i class="fa-solid fa-list"></i> Produtos
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid fa-magnifying-glass"></i> Pesquisa e Desenvolvimento
+                                    </li>
+                                </a>
+                            -->
+                                <a href="NossaEquipe.html" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid  fa fa-users"></i> Our team
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                        <div id="containerRedSociais"  class="mostraMenu">
+                            <div id="containerRedSociais_div">
+                                <div class="iconRS WhatsApp"> <a href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </div> <!-- WhatsApp -->
+                                <div class="iconRS Linkedin"> <a href="https://www.linkedin.com/in/georvis-brooks-58706b201/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a> </div> <!-- Linkedin -->
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <a id="containerWhatsappF" href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank" title="WhatsApp">
+                    <div class="iconRS WhatsApp">  <i class="fa-brands fa-whatsapp"></i> </div>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+    
+    
+    <div id="containerRenderBody">
+        
+        <div id="containerRenderNossoADN">
+
+            <div class="containerNossaEquipe">
+
+                
+                <div class="container">
+                    <h1>WE ARE AN INTERDISCIPLINARY TEAM</h1>
+
+                    <div id="containerPerfis" class="row">
+
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Raul.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">Prof.. PhD Raúl B Hernández, <br/> FOUNDER AND CEO</h5>
+                                      <p class="card-text cardPerfil_text">Professor of Environmental Chemistry & Toxicologenomics at the Federal University of São Paulo</p>
+                                      <a href="http://lattes.cnpq.br/1080005732180726" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                            
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Wilber.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">Prof. PhD Wilber M. Sánchez, <br/> BUSINESS PROJECT MANAGEMENT </h5>
+                                      <p class="card-text cardPerfil_text">Faculty at Nova Scotia Community College</p>
+                                      <a href="https://www.linkedin.com/in/wilber-m-sanchez-2127061b/" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Alexander.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">MD, PhD. Alexander B. Duharte, <br> CHIEF SCIENTIFIC OFFICER</h5>
+                                      <p class="card-text cardPerfil_text">Has experience in Immunology, vaccines, and Pre-clinical Research</p>
+                                      <a href="https://www.linkedin.com/in/alexander-batista-duharte-70813790/" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Denise.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">MSc. Denise P. Garcés, <br> LEGAL CONSULTANT</h5>
+                                      <p class="card-text cardPerfil_text">Her has experience in business law</p>
+                                      <a href="http://lattes.cnpq.br/4749601814130398" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Jesus.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">PhD. Jesus Rafael Rodriguez Amado, <br> RESEARCH AND DEVELOPMENT</h5>
+                                      <p class="card-text cardPerfil_text">He has experience in Pharmaceutical technology, formulation of pharmaceutics and cosmetics and quality control of Pharmaceutics.</p>
+                                      <a href="https://www.linkedin.com/in/jesus-rafael-rodriguez-amado-21990554/" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Deivys.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">PhD. Deivys L. P. Fuentes <br> RESEARCH AND DEVELOPMENT</h5>
+                                      <p class="card-text cardPerfil_text">He has experience in Immunology, bioinformatics and vaccines</p>
+                                      <a href="http://lattes.cnpq.br/4026579850898045" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contentCard">                        
+                            <div class="mb-3 cardPerfil">
+                                <div class="conteudoCard">
+                                  <div class="imgColaborador">
+                                    <img src="./img/Colaboradores/Fabio.jpg" class="img-fluid rounded-start cardPerfil_Img" alt="imgPerfil">
+                                  </div>
+                                  <div class="">
+                                    <div class="card-body">
+                                      <h5 class="card-title cardPerfil_Title">Fábio Henrique Ferreira Batista, <br> RESEARCH AND DEVELOPMENT</h5>
+                                      <p class="card-text cardPerfil_text">He has experience in environmental eletrochemistry</p>
+                                      <a href="http://lattes.cnpq.br/1196376276933186" class="cardPerfil_Link" target="_blank">Know more...</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                  </div>
+
+            </div>
+
+
+        </div>       
+
+    </div>
+    
+
+    <footer class="border-top footer text-muted">
+        <section>
+    
+            <article>
+                <div class="footerDuvidas">
+                    <h3>COMPARTILHE SEUS PROBLEMAS CONOSCO, E RETORNAREMOS COM AS SOLUÇÕES ADEQUADAS.</h3>
+                </div>
+
+                <div class="footerDuvidas2">
+                    <div id="border" class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div1">
+                            <i class="fas fa-phone-volume"></i>
+                            <div class="contentPhone">
+                                <a href="tel:+5511941460394"> +55-11-941460394 </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div2">
+                            <i class="far fa-envelope"></i>
+                            <div class="contentEmail">
+                                <a href="mailto:rbhernandez@unifesp.br?">rbhernandez@unifesp.br</a>
+                                <a href="mailto:bispora120@gmail.com?">bispora120@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+    
+        </section>
+     
+        <div id="fimFooter">
+            <div id="footerDiv" class="container">
+                &copy; 2024 - bispora.com.br
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="wwwroot/script.js"></script>
+    
+    <!-- Bootstrap .js v5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

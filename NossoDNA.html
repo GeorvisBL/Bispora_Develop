@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bispora</title>
+
+    <link rel="shortcut icon" href="img/Bispora.ico">
+
+    <!-- Estilos .css -->
+    <link rel="stylesheet" href="wwwroot/style.css">
+    <link rel="stylesheet" href="wwwroot/Styles/nossoDna.css">
+
+    <!-- Bootstrap .css v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="htmlBody">
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+    
+                <div id="containerHeader">
+                    <div id="containerHeader_div">
+                        <div class="d-flex flex-row-reverse bd-highlight">
+                            <div id="btnMenu" class="p-2 bd-highlight mt-2" onclick="mostrarMenu(1)">
+                                <p class="fs-5">
+                                    <i class="fa-solid fa-bars"></i>
+                                </p>
+                            </div>
+                        </div>
+        
+                        <a href="index.html">
+                            <div id="logoBispora">
+    
+                                <img id="imgLogoBispota" src="img/imgLogoVerde.png" alt="..." />
+                                <img id="imgTextoBispora" src="img/BISPORA.png" alt="..." />
+            
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+    
+                <div id="containerMenu" class="mostraMenu">
+                    <div  id="containerMenu_div">
+    
+                        <div class="d-flex flex-row-reverse bd-highlight" style="width: 100%; padding: 16px 15px 0 0;">
+                            <div id="btnMenu" class="p-2 bd-highlight" onclick="mostrarMenu(0)">
+                                <p class="fs-5"> 
+                                    <i class="fa-solid fa-xmark" style="font-size: 20pt; color: #fbf8f894; cursor: pointer;"></i>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div id="divLinksMenu">
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start col-12 mt-5" id="menu">
+                                <a href="index.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa-solid fa-house"></i> Home
+                                    </li>
+                                </a>
+                                <a href="NossoADN.html" class="nav-item text-start col-12 btnLink">
+                                    <li>
+                                        <i class="fa fa-star"></i> Our DNA 
+                                    </li>
+                                </a>
+                            <!--
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy1">
+                                        <i class="fa-solid fa-gear"></i> Serviços Especializados
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy2">
+                                        <i class="fa-solid fa-list"></i> Produtos
+                                    </li>
+                                </a>
+                                <a href="#" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid fa-magnifying-glass"></i> Pesquisa e Desenvolvimento
+                                    </li>
+                                </a>
+                            -->
+                                <a href="NossaEquipe.html" class="nav-item text-start col-12 btnLink">
+                                    <li id="btnPrivacy3">
+                                        <i class="fa-solid  fa fa-users"></i> Our team
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                        <div id="containerRedSociais"  class="mostraMenu">
+                            <div id="containerRedSociais_div">
+                                <div class="iconRS WhatsApp"> <a href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </div> <!-- WhatsApp -->
+                                <div class="iconRS Linkedin"> <a href="https://www.linkedin.com/in/georvis-brooks-58706b201/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a> </div> <!-- Linkedin -->
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <a id="containerWhatsappF" href="https://api.whatsapp.com/send?phone=5511941460394" target="_blank" title="WhatsApp">
+                    <div class="iconRS WhatsApp">  <i class="fa-brands fa-whatsapp"></i> </div>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+    
+    
+    <div id="containerRenderBody">
+        
+        <div id="containerRenderNossoADN">
+
+            <div id="contentImg1" class="contentImg container">
+                <img src="./img/nossoAdn/Welcome.jpg" class="imgNossoAdn" alt="Welcome">
+            </div>
+            <div id="contentImg2" class="contentImg container">
+                <img src="./img/nossoAdn/WhoWeAre.jpg" class="imgNossoAdn" alt="WhoWeAre">
+            </div>
+            <div id="contentImg3" class="contentImg container">
+                <img src="./img/nossoAdn/OurStory1.jpg" class="imgNossoAdn" alt="OurStory1">
+            </div>
+            <div class="container">
+                <div id="containerLink3">
+                    <span>1) <a href="https://www.nature.com/articles/s41579-021-00639-z" target="_blank"> https://doi.org/10.1038/s41579-021-00639-z </a></span>
+                    <span>2) <a href="https://proof.utoronto.ca/food-insecurity/what-are-the-implications-of-food-insecurity-for-health-and-health-care/" target="_blank"> What are the implications of food insecurity for health and health care? - PROOF (utoronto.ca) </a></span>
+                    <span>3) <a href="https://www.sciencedirect.com/science/article/pii/S2211383522000521?via%3Dihub" target="_blank"> HTTPS://DOI.ORG/10.1016%2FJ.APSB.2022.02.002 </a></span>
+                </div>
+            </div>
+
+            <div id="contentImg4" class="contentImg container">
+                <img src="./img/nossoAdn/OurStory2.jpg" class="imgNossoAdn" alt="OurStory2">
+            </div>
+            <div id="contentImg5" class="contentImg container">
+                <img src="./img/nossoAdn/Projects.jpg" class="imgNossoAdn" alt="Projects">
+            </div>
+            <div id="contentImg6" class="contentImg container">
+                <img src="./img/nossoAdn/OurComptences.jpg" class="imgNossoAdn" alt="OurComptences">
+            </div>
+            <div id="contentImg7" class="contentImg container">
+                <img src="./img/nossoAdn/Partnerships.jpg" class="imgNossoAdn" alt="Partnerships">
+            </div>
+            <div id="contentImg8" class="contentImg container">
+                <img src="./img/nossoAdn/OurTeam.jpg" class="imgNossoAdn" alt="OurTeam">
+            </div>
+
+
+            <div id="contentImg9" class="contentImg container">
+                <img src="./img/nossoAdn/FOR_INVESTORS.jpg" class="imgNossoAdn" alt="FOR_INVESTORS">
+            </div>
+            <div class="container">
+                <div id="containerLink9" class="container">
+                    <a href="https://www.gbif.org/species/6755436" target="_blank"> Bispora Corda (gbif.org) </a>
+                </div>
+            </div>
+            
+            <div id="downloadPdf" class="container">
+                <a download="Bispora" href="./Doc/Bispora.pdf" class="btn btn-success" target="_blank">Download .pdf</a>
+            </div>
+
+        </div>       
+
+    </div>
+    
+
+    <footer class="border-top footer text-muted">
+        <section>
+    
+            <article>
+                <div class="footerDuvidas">
+                    <h3>COMPARTILHE SEUS PROBLEMAS CONOSCO, E RETORNAREMOS COM AS SOLUÇÕES ADEQUADAS.</h3>
+                </div>
+
+                <div class="footerDuvidas2">
+                    <div id="border" class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div1">
+                            <i class="fas fa-phone-volume"></i>
+                            <div class="contentPhone">
+                                <a href="tel:+5511941460394"> +55-11-941460394 </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footerDuvidas2_div">
+                        <div class="footerDuvidas2_div2">
+                            <i class="far fa-envelope"></i>
+                            <div class="contentEmail">
+                                <a href="mailto:rbhernandez@unifesp.br?">rbhernandez@unifesp.br</a>
+                                <a href="mailto:bispora120@gmail.com?">bispora120@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+    
+        </section>
+     
+        <div id="fimFooter">
+            <div id="footerDiv" class="container">
+                &copy; 2024 - bispora.com.br
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="wwwroot/script.js"></script>
+    
+    <!-- Bootstrap .js v5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,352 @@
+
+
+
+
+.containerBody{
+    padding-top: 50px; 
+    background-color: #efebeb3d; 
+    padding-bottom: 40px;
+}
+
+#containerBispora1{
+    width: 100%;
+    padding: 10px 18px 5px;
+}
+#containerBispora1 h1{
+    font-size: 19pt; 
+    font-family: revert;
+}
+
+#containerImgPrincipal{
+    width: 100%; 
+    height: 390px; 
+    background-color: #003300;    
+}
+#containerImgPrincipal div{
+    width: 100%; 
+    height: 390px;    
+}
+#containerImgPrincipal img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: none;
+}
+
+#containerBispora2{
+    width: 100%;
+    padding: 0 18px;
+}
+#containerBispora2 h1{
+    font-size: 19pt; 
+    font-family: revert;
+}
+
+#containerPlataforma1{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 18px;
+}
+#containerPlataforma1 h1{
+    font-size: 19pt; 
+    font-family: revert;
+}
+
+
+#containerPlataformaImgText{
+    width: 100%; 
+    height: 140px;
+    margin-top: 50px; 
+    border-radius: 27px;
+}
+#containerPlataformaImgText_div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#imgProjBisporaBiren{
+    width: 30%;
+    height: 140px;
+    padding-right: 10px;
+}
+#imgProjBisporaBiren div{
+    width: 100%;
+    height: 140px;
+}
+#imgProjBisporaBiren div img{
+    width: 100%;
+    height: 100%;
+}
+
+#div_text{
+    width: 40%;
+}
+#div_text div{
+    width: 100%;
+    height: 50%;
+    padding: 12px 10px 0;
+    font-size: 12pt;
+}
+
+#imgProjBisporaPista{
+    width: 30%;
+    height: 140px;
+    padding-left: 10px;
+}
+#imgProjBisporaPista div{
+    width: 100%;
+    height: 140px;
+}
+#imgProjBisporaPista div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#containerPlataforma2{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 18px;
+}
+#containerPlataforma2 h1{
+    font-size: 19pt; 
+    font-family: revert;
+}
+
+#containerEquipInterd{
+    width: 100%; 
+    margin-top: 50px; 
+    border-radius: 27px;
+}
+#containerEquipInterd_div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#imgShort{
+    width: 30%;
+    height: 135px;
+    padding-right: 10px;
+}
+#imgShort div{
+    width: 100%;
+    height: 100%;
+}
+#imgShort div img{
+    width: 100%;
+    height: 100%;
+}
+#div_textEquip{
+    width: 70%;
+    height: 135px;
+}
+#div_textEquip div{
+    width: 100%;
+    height: 50%;
+    padding: 12px 10px 0;
+    font-size: 12pt;
+}
+
+
+@media (max-width: 1400px){
+
+    #imgProjBisporaBiren {
+        width: 25%;
+        height: 120px;
+    }
+    #imgProjBisporaBiren div {
+        height: 120px;
+    }
+
+    #div_text {
+        width: 50%;
+    }
+    #div_text div {
+        padding: 6px 10px 0;
+    }
+
+    #imgProjBisporaPista {
+        width: 25%;
+        height: 120px;
+    }
+    #imgProjBisporaPista div {
+        height: 120px;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    #div_text div {
+        font-size: 10pt;
+    }
+
+    #imgShort{
+        width: 30%;
+        height: 125px;
+    }
+    #imgShort div{
+        height: 125px;
+    }
+    #div_textEquip {
+        height: 125px;
+    }
+    #div_textEquip div {
+        padding: 11px 10px 0;
+        font-size: 10pt;
+    }
+
+}
+
+
+@media (max-width: 991px){
+
+    #containerImgPrincipal {
+        height: 320px;
+    }
+    #containerImgPrincipal div {
+        width: 679px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    #containerImgPrincipal img {
+        object-fit: contain;
+    }
+
+    #containerPlataformaImgText {
+        height: auto;
+        box-shadow: 1px 1px 7px grey;
+        border-radius: 20px;
+    }
+    #containerPlataformaImgText_div {
+        flex-direction: column;
+    }
+
+    #imgProjBisporaBiren {
+        width: 100%;
+        height: 90px;
+        background-color: #000;
+        border-radius: 20px 20px 0 0;
+    }
+    #imgProjBisporaBiren div {
+        width: 250px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    #div_text {
+        width: 100%;
+    }
+    #div_text div {
+        font-size: 12pt;
+        padding: 10px;
+    }
+
+    #imgProjBisporaPista {
+        width: 100%;
+        height: 90px;
+        background-color: #000;
+        border-radius: 0 0 20px 20px;
+    }
+    #imgProjBisporaPista div {
+        width: 250px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    #containerEquipInterd_div {
+        flex-direction: column;        
+        box-shadow: 1px 1px 7px grey;
+        border-radius: 20px 20px 0 0;
+    }
+    #imgShort {
+        width: 100%;
+        height: 100px;
+        background-color: #003300;
+        border-radius: 20px 20px 0 0;
+        padding: 0;
+    }
+    #imgShort div {
+        width: 255px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    #div_textEquip {
+        width: 100%;
+        height: auto;
+    }
+    #div_textEquip div {
+        padding: 14px;
+        font-size: 12pt;
+    }
+}
+
+
+@media (max-width: 696px){
+
+    #containerBispora1 h1, #containerBispora2 h1, 
+    #containerPlataforma1 h1, #containerPlataforma2 h1 {
+        font-size: 15pt;
+    }
+
+    #containerImgPrincipal {
+        height: 260px;
+    }
+    #containerImgPrincipal div {
+        width: 495px;
+        height: 260px;
+    }
+
+    #imgProjBisporaBiren {
+        height: 80px;
+    }
+    #imgProjBisporaBiren div {
+        width: 220px;
+        height: 80px;
+    }
+
+    #imgProjBisporaPista {
+        height: 80px;
+    }
+    #imgProjBisporaPista div {
+        width: 220px;
+        height: 80px;
+    }
+
+    #imgShort {
+        height: 83px;
+    }
+    #imgShort div {
+        width: 220px;
+        height: 83px;
+    }
+
+
+}
+
+
+@media (max-width: 480px){
+
+    #containerImgPrincipal {
+        height: 220px;
+    }
+    #containerImgPrincipal div {
+        width: 435px;
+        height: 220px;
+    }
+
+
+}
+
+
+@media (max-width: 440px){
+
+    #containerImgPrincipal {
+        height: 200px;
+    }
+    #containerImgPrincipal div {
+        width: 100%;
+        height: 200px;
+    }
+
+}
